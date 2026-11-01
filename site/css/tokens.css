@@ -1,0 +1,44 @@
+:root {
+  --color-connection: #0E4180;
+  --color-deep: #092E5C;
+  --color-white: #FFFFFF;
+  --color-horizon: #70A3D7;
+  --color-cloud: #9CC2EE;
+
+  --font-sans: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+  --font-size-body: 1rem;
+  --font-size-small: 0.875rem;
+  --font-size-lead: 1.125rem;
+  --font-size-h1: clamp(2.5rem, 7vw, 5.75rem);
+  --font-size-h2: clamp(2rem, 4vw, 3.5rem);
+  --font-size-h3: clamp(1.25rem, 2vw, 1.75rem);
+
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.05;
+  --line-height-body: 1.6;
+  --line-height-relaxed: 1.7;
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+  --space-8: 7.5rem;
+
+  --container-width: 73.75rem;
+  --page-gutter: 1.5rem;
+  --focus-width: 3px;
+  --focus-offset: 3px;
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --page-gutter: 3rem;
+  }
+}

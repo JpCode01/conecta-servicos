@@ -50,3 +50,4 @@ Read only the skill and files needed for the current stage. Load `references/` o
 
 ## Conventions
 Files and directories use lowercase-kebab-case. Skill source is `.agents/skills/`; `.claude/skills/` is a generated mirror (`scripts/sync-skills.sh` or `scripts/sync-skills.ps1`), never edited by hand. Validate the repository with `scripts/check-repo.sh`.
+
